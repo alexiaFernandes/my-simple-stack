@@ -5,13 +5,13 @@ package deqo.afer.mysimplestack;
  */
 public class Item {
 
-    private int valeur;
+    private Object valeur;
 
-    public Item(int item) {
+    public Item(Object item) {
         this.valeur = item;
     }
 
-    public int getItem() {
+    public Object getItem() {
         return valeur;
     }
 
